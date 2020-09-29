@@ -10,35 +10,35 @@ namespace part_5_decisions
     {
         static void Main(string[] args)
         {
-            //STAGES 
-            //Console.WriteLine("Please enter your age!");
+            //STAGES
+            Console.WriteLine("Please enter your age!");
 
-            //string age = Console.ReadLine();
-            //int number = Convert.ToInt32(age);
+            string age = Console.ReadLine();
+            int number = Convert.ToInt32(age);
 
 
-            //if (number == 18)
-            //{
-            //    Console.WriteLine("Adult");
-            //}
-            //if (number >= 13)
-            //{
-            //    Console.WriteLine("Teen");
-            //}
-            //if (number <= 12)
-            //{
-            //    Console.WriteLine("Preteen");
-            //}
-            //if (number <= 10)
-            //{
-            //    Console.WriteLine("Child");
-            //}
-            //if (number <= 6)
-            //{
-            //    Console.WriteLine("Toddler");
-            //}
+            if (number == 18)
+            {
+                Console.WriteLine("Adult");
+            }
+            if (number >= 13)
+            {
+                Console.WriteLine("Teen");
+            }
+            if (number <= 12)
+            {
+                Console.WriteLine("Preteen");
+            }
+            if (number <= 10)
+            {
+                Console.WriteLine("Child");
+            }
+            if (number <= 6)
+            {
+                Console.WriteLine("Toddler");
+            }
 
-            //Console.ReadLine();
+            Console.ReadLine();
 
 
 
@@ -48,7 +48,7 @@ namespace part_5_decisions
 
             //HURRICANE CATEGORYS
             Console.WriteLine("Enter a hurricane category");
-            
+
             int caseSwitch;
             Int32.TryParse(Console.ReadLine(), out caseSwitch);
 
@@ -74,7 +74,7 @@ namespace part_5_decisions
                     break;
 
             }
-                    Console.ReadLine();
+            Console.ReadLine();
 
 
 
@@ -86,18 +86,23 @@ namespace part_5_decisions
 
 
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
 
