@@ -40,6 +40,13 @@ namespace part_5_decisions
 
             //Console.ReadLine();
 
+
+
+
+
+
+
+            //HURRICANE CATEGORYS
             Console.WriteLine("Enter a hurricane category");
             
             int caseSwitch;
@@ -48,26 +55,32 @@ namespace part_5_decisions
             switch (caseSwitch)
             {
                 case 1:
-                    Console.WriteLine("Category 1 ");
+                    Console.WriteLine("Category 1: 74-95 mph 64-82 kt or 119-153 km/h ");
                     break;
                 case 2:
-                    Console.WriteLine("Case 2");
+                    Console.WriteLine("Category 2: 96-10 mph or 83-95 kt or 154=177 km/h");
                     break;
                 case 3:
-                    Console.WriteLine("Case 2");
+                    Console.WriteLine("Category 111-130 mph or 96-113 kt or 178-209 km/h");
                     break;
                 case 4:
-                    Console.WriteLine("Case 2");
+                    Console.WriteLine("Category 4 131-155 mph or 114-135 kt or 210-249 km/h");
                     break;
                 case 5:
-                    Console.WriteLine("Case 2");
+                    Console.WriteLine("Category 5 greater than 155 mph or 135 kt 249 km/h");
                     break;
                 default:
-                    Console.WriteLine("Default case");
+                    Console.WriteLine("That is not a hurricane category. Please pick bettween 1-5");
                     break;
 
-
             }
+                    Console.ReadLine();
+
+
+
+
+
+
 
 
 
