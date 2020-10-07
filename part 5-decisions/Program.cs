@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,13 @@ namespace part_5_decisions
 {
     class Program
     {
+
+
+        
         static void Main(string[] args)
         {
-            //STAGES
+            //STAGES...
+
             Console.WriteLine("Please enter your age!");
 
             string age = Console.ReadLine();
@@ -46,7 +51,8 @@ namespace part_5_decisions
 
 
 
-            //HURRICANE CATEGORYS
+            //HURRICANE CATEGORYS...
+
             Console.WriteLine("Enter a hurricane category");
 
             int caseSwitch;
@@ -80,9 +86,34 @@ namespace part_5_decisions
 
 
 
+            //DIVISIBLE PROJECT...
+
+            Random generator = new Random();
+
+            int randomNum = generator.Next(1, 7);
+            Console.WriteLine($"Please enter a number larger then,{randomNum} to see if its divisible...");
+
+            string guess = Console.ReadLine();
+            int newnumber = Convert.ToInt32(guess);
+
+            if (randomNum % newnumber == 0)
+
+            {
+
+                Console.WriteLine("Divisible!");
 
 
+            }
 
+            else if (!(randomNum % newnumber == 0))
+            {
+
+                Console.WriteLine("Not Divisible!");
+
+
+            }
+
+            Console.ReadLine();
 
 
 
